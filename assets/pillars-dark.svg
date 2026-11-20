@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="136" viewBox="0 0 880 136" role="img" aria-label="Core Focus Areas">
+  <style>
+    :root {
+      --bg: #131720;
+      --accent: #79b8ff;
+      --ink: #f0f3f6;
+      --muted: #8b949e;
+      --line: #2d3544;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    text { font-family: var(--font); }
+    .num { font-size: 11px; font-weight: 700; letter-spacing: 1.2px; fill: var(--accent); font-variant-numeric: tabular-nums; }
+    .heading { font-size: 14px; font-weight: 600; fill: var(--ink); }
+    .desc { font-size: 12px; font-weight: 400; fill: var(--muted); }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="135" rx="6" ry="6" fill="#131720" stroke="#2d3544" stroke-width="1"/>
+
+  <!-- Column 1 -->
+  <text x="28" y="34" class="num">01 · DIGITAL AUDIT &amp; AI</text>
+  <text x="28" y="58" class="heading">LLM Agents &amp; Reporting</text>
+  <text x="28" y="80" class="desc">Prototyping AI workflows for financial</text>
+  <text x="28" y="97" class="desc">statement analysis, IFRS reporting,</text>
+  <text x="28" y="114" class="desc">and automated audit procedures.</text>
+
+  <line x1="293" y1="22" x2="293" y2="114" stroke="#2d3544" stroke-width="1"/>
+
+  <!-- Column 2 -->
+  <text x="321" y="34" class="num">02 · EMPIRICAL FINANCE</text>
+  <text x="321" y="58" class="heading">Econometrics &amp; Fairness</text>
+  <text x="321" y="80" class="desc">Empirical capital-market studies in R,</text>
+  <text x="321" y="97" class="desc">PRISMA reviews, and ML benchmarks</text>
+  <text x="321" y="114" class="desc">for fair credit risk modeling.</text>
+
+  <line x1="586" y1="22" x2="586" y2="114" stroke="#2d3544" stroke-width="1"/>
+
+  <!-- Column 3 -->
+  <text x="614" y="34" class="num">03 · SCIENTIFIC WRITING</text>
+  <text x="614" y="58" class="heading">Typst &amp; LaTeX Systems</text>
+  <text x="614" y="80" class="desc">Crafting clean, publication-grade</text>
+  <text x="614" y="97" class="desc">Typst templates for theses, seminar</text>
+  <text x="614" y="114" class="desc">papers, and reproducible reports.</text>
+</svg>

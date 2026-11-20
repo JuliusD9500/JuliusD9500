@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="276" viewBox="0 0 880 276" role="img" aria-labelledby="title desc">
+  <title id="title">Julius Diesing — GitHub Profile</title>
+  <desc id="desc">B.Sc. Business Administration at Humboldt-Universität zu Berlin. Accounting, Finance, Business Information Systems, and Applied AI.</desc>
+
+  <defs>
+    <clipPath id="card-clip">
+      <rect x="0.5" y="0.5" width="879" height="275" rx="6" ry="6"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    :root {
+      --bg: #131720;
+      --accent: #79b8ff;
+      --accent-bar: #4f8ed8;
+      --ink: #f0f3f6;
+      --body: #c9d1d9;
+      --muted: #8b949e;
+      --line: #2d3544;
+      --line-soft: #222936;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    text {
+      font-family: var(--font);
+    }
+
+    .eyebrow {
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 1.8px;
+      fill: var(--muted);
+    }
+
+    .name {
+      font-size: 38px;
+      font-weight: 700;
+      letter-spacing: -1.1px;
+      fill: var(--accent);
+    }
+
+    .subtitle {
+      font-size: 13px;
+      font-weight: 500;
+      fill: var(--ink);
+    }
+
+    .bio {
+      font-size: 13px;
+      font-weight: 400;
+      fill: var(--body);
+    }
+
+    .status {
+      font-size: 11.5px;
+      font-weight: 500;
+      fill: var(--muted);
+    }
+
+    .meta-label {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 1.4px;
+      fill: var(--muted);
+    }
+
+    .meta-value {
+      font-size: 12.5px;
+      font-weight: 600;
+      fill: var(--ink);
+    }
+
+    .meta-sub {
+      font-size: 11px;
+      font-weight: 400;
+      fill: var(--muted);
+    }
+
+    .domain {
+      font-size: 11.5px;
+      font-weight: 600;
+      fill: var(--accent);
+      letter-spacing: 0.2px;
+    }
+
+    .accent-bar {
+      transform-origin: left center;
+      animation: drawBar 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .pulse-ring {
+      transform-origin: 41px 243px;
+      animation: pulseRing 2.8s ease-out infinite;
+    }
+
+    @keyframes drawBar {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+
+    @keyframes pulseRing {
+      0% { transform: scale(1); opacity: 0.55; }
+      75% { transform: scale(2.6); opacity: 0; }
+      100% { transform: scale(2.6); opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .accent-bar, .pulse-ring { animation: none; }
+      .pulse-ring { opacity: 0; }
+    }
+  </style>
+
+  <!-- Card Background & HU-Inspired Top Rule -->
+  <g clip-path="url(#card-clip)">
+    <rect x="0" y="0" width="880" height="276" fill="#131720"/>
+    <rect class="accent-bar" x="0" y="0" width="880" height="4" fill="#4f8ed8"/>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="275" rx="6" ry="6" fill="none" stroke="#2d3544" stroke-width="1"/>
+
+  <!-- Left Editorial Column -->
+  <text x="36" y="42" class="eyebrow">GITHUB PROFILE · HUMBOLDT-UNIVERSITÄT ZU BERLIN</text>
+  <text x="36" y="88" class="name">Julius Diesing</text>
+  <text x="36" y="116" class="subtitle">B.Sc. Business Administration · Accounting, Finance &amp; Information Systems</text>
+
+  <line x1="36" y1="136" x2="572" y2="136" stroke="#2d3544" stroke-width="1"/>
+
+  <text x="36" y="164" class="bio">Working at the intersection of corporate reporting, empirical finance, and</text>
+  <text x="36" y="185" class="bio">applied AI — designing data-driven analyses, LLM workflows for digital audit,</text>
+  <text x="36" y="206" class="bio">and clean Typst templates for academic writing.</text>
+
+  <!-- Subtle Animated Status Indicator -->
+  <circle class="pulse-ring" cx="41" cy="243" r="3.5" fill="#79b8ff"/>
+  <circle cx="41" cy="243" r="3.5" fill="#79b8ff"/>
+  <text x="54" y="247" class="status">Currently building: Academic Typst Templates  ·  Berlin, Germany</text>
+
+  <!-- Vertical Hairline Divider -->
+  <line x1="604" y1="32" x2="604" y2="248" stroke="#2d3544" stroke-width="1"/>
+
+  <!-- Right Metadata Rail -->
+  <text x="630" y="42" class="meta-label">EXPERIENCE</text>
+  <text x="630" y="61" class="meta-value">KPMG · Audit Technology</text>
+  <text x="630" y="78" class="meta-sub">Digital Audit Innovation (2026–2027)</text>
+  <text x="630" y="94" class="meta-sub">Prev. Wirtschaftsprüferkammer</text>
+
+  <line x1="630" y1="110" x2="844" y2="110" stroke="#222936" stroke-width="1"/>
+
+  <text x="630" y="130" class="meta-label">RESEARCH &amp; METHODS</text>
+  <text x="630" y="149" class="meta-value">Applied AI &amp; Econometrics</text>
+  <text x="630" y="166" class="meta-sub">Algorithmic Fairness · Event Studies</text>
+
+  <line x1="630" y1="182" x2="844" y2="182" stroke="#222936" stroke-width="1"/>
+
+  <text x="630" y="202" class="meta-label">CORE STACK</text>
+  <text x="630" y="221" class="meta-value">Python · R · Typst · LaTeX</text>
+
+  <text x="630" y="247" class="domain">hu.berlin/diesingj</text>
+</svg>
