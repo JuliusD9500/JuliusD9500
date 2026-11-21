@@ -2,9 +2,9 @@
 
 <a href="https://hu.berlin/diesingj">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-    <img alt="Julius Diesing — GitHub Profile" src="./assets/header-light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-hu-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-hu-light.svg">
+    <img alt="Julius Diesing — Accounting, Finance &amp; Coding" src="./assets/header-hu-light.svg" width="100%">
   </picture>
 </a>
 
