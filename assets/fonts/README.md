@@ -18,8 +18,10 @@ Alle sechs Individualisierungen / Achsen sind enthalten:
 
 GitHub bindet SVGs in der README als `<img>` ein. In diesem Modus laden Browser
 keine externen Dateien, also auch keine Schrift per `url(assets/fonts/…)`.
-Deshalb ist diese Datei unverändert als Base64 direkt in
-`assets/header-hu-light.svg` und `assets/header-hu-dark.svg` eingebettet.
+Deshalb ist diese Datei unverändert als Base64 direkt in jede
+`assets/*-hu-*.svg` eingebettet (Header, Projekte, Werdegang).
+Die Link-Buttons `assets/link-*.svg` enthalten ihre Beschriftung als Pfad
+und kommen deshalb ohne eingebettete Schrift aus.
 
 Projekt: https://github.com/googlefonts/googlesans-flex
 

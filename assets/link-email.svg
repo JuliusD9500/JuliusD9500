@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="40" viewBox="0 0 128 40">
+  <title>E-Mail</title>
+  <!-- Beschriftung als Pfad: Google Sans Flex · 600 · 12px · Sperrung 1.5px. So braucht der Button keine eingebettete Schrift (sonst ca. 1,9 MB). -->
+
+  <!-- Surface: HU-Blau -->
+  <rect width="128" height="40" fill="#00376c"/>
+
+  <!-- Icon: Briefumschlag -->
+  <g transform="translate(26.6 15)">
+    <rect width="14" height="10" fill="#ffffff"/>
+    <path fill="none" stroke="#00376c" stroke-width="1.2" d="M0.5 0.6L7 5.4L13.5 0.6"/>
+  </g>
+
+  <!-- Label: E-MAIL -->
+  <path fill="#ffffff" d="M51.7 24.3V15.71H57.21V17.21H53.35V22.79H57.33V24.3H51.7ZM52.7 20.6V19.21H56.63V20.6H52.7ZM59.87 20.92V19.5H63.81V20.92H59.87ZM66.72 24.3V15.71H68.78L71.49 22.3H71.53L74.24 15.71H76.23V24.3H74.64V19.82L74.68 18.26H74.64L72.18 24.3H70.81L68.31 18.25H68.27L68.33 19.82V24.3H66.72ZM79.08 24.3 82.49 15.71H84.03L87.43 24.3H85.65L83.63 18.85L83.26 17.73H83.21L82.86 18.84L80.84 24.3H79.08ZM80.63 22.51 81.1 21.17H85.29L85.78 22.51H80.63ZM90.27 24.3V15.71H91.94V24.3H90.27ZM95.64 24.3V15.71H97.3V22.77H101.07V24.3H95.64Z"/>
+</svg>
