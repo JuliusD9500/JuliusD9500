@@ -14,6 +14,7 @@
   <a href="https://www.linkedin.com/in/juliusdiesing/"><img alt="LinkedIn" src="./assets/link-linkedin.svg" height="40"></a>
   <a href="https://orcid.org/0009-0001-1711-3306"><img alt="ORCID" src="./assets/link-orcid.svg" height="40"></a>
   <a href="mailto:julius.diesing@student.hu-berlin.de"><img alt="E-Mail" src="./assets/link-email.svg" height="40"></a>
+  <br>
 </p>
 
 <p>
