@@ -9,6 +9,7 @@
 </a>
 
 <p>
+  <br>
   <a href="https://hu.berlin/diesingj"><img alt="CV" src="./assets/link-cv.svg" height="40"></a>
   <a href="https://www.linkedin.com/in/juliusdiesing/"><img alt="LinkedIn" src="./assets/link-linkedin.svg" height="40"></a>
   <a href="https://orcid.org/0009-0001-1711-3306"><img alt="ORCID" src="./assets/link-orcid.svg" height="40"></a>
